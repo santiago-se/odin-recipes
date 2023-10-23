@@ -44,3 +44,32 @@ a {
 a:visited {
   color: white;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > .lasagna-img {
+  margin: 5rem 5rem;
+  border-radius: 16px;
+}
+
+.container,
+.lasagna-img,
+.lasagna-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+/* .placeholder {
+  display: grid;
+}
+
+.expense,
+.difficulty {
+  border: 1px solid blue;
+} */
