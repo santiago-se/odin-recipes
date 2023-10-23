@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+.page-header {
+  background-color: dimgrey;
+  min-height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+}
+
+header > div > img {
+  margin: 1rem 1rem;
+}
+
+.header-title {
+  order: 2;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.grid-container > div > img {
+  margin-top: 2rem;
+}
+
+.grid-container > div > .lasagna {
+  width: 400px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > div > a > .lasagna,
+.pasta,
+.fries,
+.roulades {
+  width: 400px;
+  height: 350px;
+  margin-top: 2rem;
+}
+
+.grid-container > div > a > .schnitzel {
+  margin-top: 2rem;
+  width: 450px;
+}
+
+.schnitzel {
+  grid-column: 1 / 5;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+.page-header {
+  background-color: dimgrey;
+  min-height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+}
+
+header > div > img {
+  margin: 1rem 1rem;
+}
+
+.header-title {
+  order: 2;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.page-header > .back {
+  order: 3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: white;
+}
