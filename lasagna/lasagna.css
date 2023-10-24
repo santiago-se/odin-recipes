@@ -49,11 +49,17 @@ a:visited {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #d1d1d1;
+  color: black;
 }
 
 .container > .lasagna-img {
   margin: 5rem 5rem;
   border-radius: 16px;
+}
+
+.bg-color {
+  background-color: lightgrey;
 }
 
 .container,
@@ -65,11 +71,33 @@ a:visited {
   padding: 1rem 1rem;
 }
 
-/* .placeholder {
+.lasagna-subtext {
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  text-align: justify;
+}
+
+.placeholder {
   display: grid;
+  grid-template-columns: auto auto;
+}
+
+.placeholder > div > p {
+  color: rgb(143, 153, 163);
+  padding-left: 1rem;
+}
+
+.placeholder > div > span {
+  padding-left: 1.2rem;
 }
 
 .expense,
 .difficulty {
-  border: 1px solid blue;
-} */
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 95px;
+  height: 55px;
+  display: grid;
+  margin-left: 45%;
+}
