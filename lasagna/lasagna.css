@@ -147,3 +147,70 @@ tr td {
   padding: 0.2rem 4rem;
   font-weight: 900;
 }
+
+.preparation-cont {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.prep-card {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: lightgrey;
+  border: 5px solid grey;
+  border-radius: 24px;
+  line-height: 1.8;
+}
+
+.tools-png {
+  position: relative;
+  z-index: 1;
+  top: -70px;
+  right: -270px;
+}
+
+.req-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.border-bg {
+  border: 5px solid grey;
+  background-color: lightgray;
+  width: 620px;
+  height: 180px;
+  border-radius: 24px;
+}
+
+.index-box {
+  position: relative;
+  background-color: grey;
+  width: 100px;
+  height: 50px;
+  border-radius: 24px;
+  z-index: 1;
+  top: -20px;
+  left: 20px;
+}
+
+.index-box p {
+  color: white;
+  padding-left: 29px;
+  padding-top: 15px;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.req-container > .border-bg > .req-p {
+  padding-left: 24px;
+  line-height: 1.8;
+}
+
+.knife-png,
+.cart-png {
+  float: left;
+  clear: left;
+  margin-right: 14px;
+}
