@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   background-color: burlywood;
 }
-
 .page-header {
   background-color: dimgrey;
   min-height: 5rem;
@@ -15,11 +13,9 @@ html {
   justify-content: space-between;
   min-width: 320px;
 }
-
 header > div > img {
   margin: 1rem 1rem;
 }
-
 .header-title {
   order: 2;
   justify-content: center;
@@ -27,7 +23,6 @@ header > div > img {
   width: 100%;
   display: flex;
 }
-
 .page-header > .back {
   order: 3;
   justify-content: center;
@@ -35,22 +30,18 @@ header > div > img {
   display: flex;
   margin-right: 2rem;
 }
-
 a {
   text-decoration: none;
   font-size: 20px;
 }
-
 a:visited {
   color: white;
 }
-
 .container {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
-
 .container-card {
   background-color: lightgray;
   border: 5px solid grey;
@@ -58,7 +49,6 @@ a:visited {
   height: 35rem;
   border-radius: 24px;
 }
-
 .lasagna-img {
   border-radius: 24px;
   margin: 4rem 4rem;
@@ -66,35 +56,29 @@ a:visited {
   clear: left;
   width: 30rem;
 }
-
 .lasagna-title {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
 }
-
 .lasagna-subtext {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
 }
-
 .placeholder {
   margin-top: 6rem;
   display: grid;
   grid-template-columns: auto auto;
 }
-
 .placeholder > div > p {
   color: rgb(143, 153, 163);
   padding-left: 1rem;
 }
-
 .placeholder > div > span {
   padding-left: 1.2rem;
 }
-
 .expense,
 .difficulty {
   border: 1px solid black;
@@ -104,17 +88,14 @@ a:visited {
   display: grid;
   margin-left: 45%;
 }
-
 .placeholder p {
   text-decoration: underline black;
 }
-
 .ingredients-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .ingredients-card {
   margin-top: 2rem;
   background-color: lightgray;
@@ -123,37 +104,31 @@ a:visited {
   height: 700px;
   border-radius: 24px;
 }
-
 .ingredients-h1 {
   justify-content: center;
   text-align: center;
   margin-bottom: 2rem;
   color: black;
 }
-
 .ingredients-p {
   text-align: center;
   margin-bottom: 2rem;
   color: black;
 }
-
 .table-container {
   display: flex;
   justify-content: center;
 }
-
 tr td {
   color: black;
   padding: 0.2rem 4rem;
   font-weight: 900;
 }
-
 .preparation-cont {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-
 .prep-card {
   padding: 1.5rem;
   margin-top: 2rem;
@@ -162,20 +137,17 @@ tr td {
   border-radius: 24px;
   line-height: 1.8;
 }
-
 .tools-png {
   position: relative;
   z-index: 1;
   top: -70px;
   right: -270px;
 }
-
 .req-container {
   display: flex;
   justify-content: center;
   padding-top: 32px;
 }
-
 .border-bg {
   border: 5px solid grey;
   background-color: lightgray;
@@ -183,7 +155,6 @@ tr td {
   height: 180px;
   border-radius: 24px;
 }
-
 .index-box {
   position: relative;
   background-color: grey;
@@ -194,7 +165,6 @@ tr td {
   top: -20px;
   left: 20px;
 }
-
 .index-box p {
   color: white;
   padding-left: 29px;
@@ -202,16 +172,13 @@ tr td {
   font-size: larger;
   font-weight: 900;
 }
-
 .req-container > .border-bg > .req-p {
   padding-left: 24px;
   line-height: 1.8;
 }
-
 .knife-png,
 .cart-png {
   float: left;
   clear: left;
   margin-right: 14px;
 }
-/*  */
